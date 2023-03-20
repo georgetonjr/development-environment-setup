@@ -68,7 +68,6 @@ sudo apt-get install python3-pip
 echo "deb [trusted=yes arch=amd64] https://download.konghq.com/insomnia-ubuntu/ default all" \
     | sudo tee -a /etc/apt/sources.list.d/insomnia.list
 
-
 sudo apt-get update
 sudo apt-get install insomnia
 
@@ -91,4 +90,3 @@ sudo apt-get install google-chrome-stable
 sudo apt install gdebi-core wget
 wget -O ~/discord.deb "https://discordapp.com/api/download?platform=linux&format=deb"
 sudo gdebi ~/discord.deb 
-8534
