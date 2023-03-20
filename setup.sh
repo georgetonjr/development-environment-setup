@@ -12,8 +12,6 @@ sudo usermod --shell $(which zsh) $USER
 
 git clone https://github.com/meiokubo-zz/emoji.zsh-theme.git
 
-cd emoji.zsh-theme
-
 mv -f ~/emoji.zsh-theme/emoji.zsh-theme ~/.oh-my-zsh
 
 bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)" -y
