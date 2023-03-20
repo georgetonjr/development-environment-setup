@@ -16,6 +16,10 @@ mv -f ~/emoji.zsh-theme/emoji.zsh-theme ~/.oh-my-zsh
 
 bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)" -y
 
+sudo apt update
+sudo apt install python3-dev python3-pip python3-setuptools
+pip3 install thefuck --user
+
 # criar arquivo .zshrc
 while read line; do
 # reading each line
