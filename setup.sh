@@ -1,6 +1,8 @@
 # install git
 sudo apt update
 sudo apt-get install git-all -y
+git config --global user.name "Georgeton Junior"
+git config --global user.email georgetonjr@gmail.com
 
 # install zsh
 sudo apt-get install zsh -y
